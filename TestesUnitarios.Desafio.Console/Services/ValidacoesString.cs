@@ -1,4 +1,9 @@
-namespace TestesUnitarios.Desafio.Console.Services
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace testesUnitarios.desafio.tests
 {
     public class ValidacoesString
     {

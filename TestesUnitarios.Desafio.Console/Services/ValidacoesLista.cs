@@ -1,8 +1,13 @@
-namespace TestesUnitarios.Desafio.Console.Services
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace testesUnitarios.desafio.console.services
 {
     public class ValidacoesLista
     {
-        public List<int> RemoverNumerosNegativos(List<int> lista)
+         public List<int> RemoverNumerosNegativos(List<int> lista)
         {
             var listaSemNegativos = lista.Where(x => x > 0);
             return listaSemNegativos.ToList();
